@@ -1,0 +1,120 @@
+# Third-Party Software Notices
+
+This distribution contains modified Libretro core builds of Tsugaru,
+the FM TOWNS / Marty emulator developed by CaptainYS
+(Soji Yamakawa).
+
+Release platforms:
+* Linux x86_64
+* Linux ARM64
+* Android ARM64
+* Windows x86_64
+
+Original Tsugaru project:
+https://github.com/captainys/TOWNSEMU
+
+Tsugaru is distributed under the 3-clause BSD License.
+See LICENSE_Tsugaru.txt included with this distribution.
+
+## Tsugaru / CaptainYS Components
+
+The Libretro cores are built from the original Tsugaru source tree
+together with supporting libraries from the CaptainYS
+development environment.
+
+Components used by the build include:
+
+* YsSimpleSound
+  Copyright (c) 2015 Soji Yamakawa.
+  All rights reserved.
+
+* YsPNG
+  Copyright (c) 2017 Soji Yamakawa.
+  All rights reserved.
+
+* D77
+  Copyright 2020 Soji Yamakawa
+  (CaptainYS, http://www.ysflight.com)
+
+* YsSocket
+  Supporting library from the CaptainYS source environment.
+
+The original author, Soji Yamakawa (CaptainYS), has confirmed
+that YsSimpleSound and YsSocket are licensed under the
+BSD 3-Clause License.
+
+The original author has also confirmed that modified Tsugaru
+Libretro core binaries for Linux x86_64, Linux ARM64,
+Android ARM64, and Windows x86_64 may be distributed,
+subject to the applicable licenses.
+
+Original author's confirmation:
+https://github.com/captainys/TOWNSEMU/issues/203
+
+Existing copyright notices and applicable license
+conditions must be preserved.
+
+These components originate from source code used by the
+Tsugaru project and/or the CaptainYS public source libraries.
+
+CaptainYS public source repository:
+https://github.com/captainys/public
+
+For the copyright notice, redistribution conditions, and
+disclaimer applicable to the original Tsugaru source included
+in this distribution, see LICENSE_Tsugaru.txt.
+
+## System Libraries
+
+Runtime library dependencies differ between Linux, Android,
+and Windows builds.
+
+Each platform may use operating-system runtime libraries
+subject to their respective licenses.
+
+Runtime dependencies must be checked for each release binary.
+
+## Modification Notice
+
+These are unofficial modified Libretro builds of Tsugaru.
+They are not official releases by CaptainYS.
+
+The original Tsugaru project remains the work of
+CaptainYS (Soji Yamakawa).
+
+Original modifications and additional files are subject
+to their applicable copyright notices and licenses.
+See LICENSE_Modifications.txt for modifications by Ca-h9j9n.
+
+FM TOWNS BIOS/ROM files and commercial game software
+are not included in this distribution.
+
+## Libretro API
+
+The Libretro API header (libretro.h) is distributed under
+the MIT License.
+See LICENSE_libretro.txt.
+
+## CHD Support Libraries
+
+The Libretro cores support CHD CD-ROM images through libchdr.
+
+* libchdr
+  BSD 3-Clause-style License.
+  See LICENSE_libchdr.txt.
+
+* LZMA SDK 26.02
+  Public Domain.
+  See LICENSE_LZMA_SDK.txt.
+
+* miniz 3.1.2
+  Unlicense / Public Domain and MIT-style license notices.
+  See LICENSE_miniz.txt.
+
+* Zstandard (zstd) 1.5.7
+  BSD License (selected from the available license options).
+  See LICENSE_zstd.txt.
+
+* dr_flac
+  Public Domain / MIT-0 dual licensing.
+  See LICENSE_dr_flac.txt.
