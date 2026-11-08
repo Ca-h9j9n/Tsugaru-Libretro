@@ -119,7 +119,7 @@ https://github.com/captainys/TOWNSEMU
 
 Recognized file extensions:
 
-cue, iso, mds, bin, chd, d77, d88, hdm, h0, icm, tsu
+cue, iso, mds, ccd, bin, chd, d77, d88, hdm, h0, icm, tsu
 
 Compatibility with every game or disk image is not guaranteed.
 
@@ -415,7 +415,7 @@ https://github.com/captainys/TOWNSEMU
 
 RetroArchに登録される拡張子：
 
-- CD：cue、iso、mds、bin、chd
+- CD：cue、iso、mds、ccd、bin、chd
 - FD：d77、d88、hdm
 - HDD：h0
 - メモリーカード：icm
